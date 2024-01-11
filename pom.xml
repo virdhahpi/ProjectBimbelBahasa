@@ -97,7 +97,7 @@
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15to18</artifactId>
-            <version>1.72</version>
+            <version>1.74</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.mindrot/jbcrypt -->
