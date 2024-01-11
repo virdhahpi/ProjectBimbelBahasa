@@ -1,0 +1,6 @@
+package com.juarcoding.pcmspringbootrestapi.constant;
+
+public class ConstantClassPesertaSQLServer {
+
+    public static final String COL_DEF_NAMA = "CHAR(20) comments 'Ini Buat Field Nama di Tabel Peserta'";
+}

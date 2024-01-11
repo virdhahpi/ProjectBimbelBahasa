@@ -1,0 +1,19 @@
+package com.juaracoding.pcmspringbootcsr.constant;
+
+public class ConstantMessageMenuHeader {
+
+    public final static String WARNING_MENU_HEADER_NOT_EXISTS = "MENU HEADER TIDAK DOTEMUKAN";
+    public final static String ERROR_NAMA_MENU_HEADER_IS_NULL = "FIELD NAMA MENU HEADER TIDAK BOLEH NULL";
+    public final static String ERROR_NAMA_MENU_HEADER_IS_BLANK = "FIELD NAMA MENU HEADER TIDAK BOLEH DIISI SPASI SAJA";
+    public final static String ERROR_NAMA_MENU_HEADER_IS_EMPTY = "FIELD NAMA MENU HEADER TIDAK BOLEH KOSONG";
+    public final static String ERROR_NAMA_MENU_HEADER_LENGTH = "MINIMAL 2 MAKSIMAL 20 KARAKTER ";
+    public final static String REGEX_NAMA_MENU_HEADER_LENGTH = "^[a-zA-Z\\s]{2,20}$";
+
+    public final static String ERROR_DESKRIPSI_MENU_HEADER_IS_NULL = "FIELD DESKRIPSI MENU HEADER TIDAK BOLEH NULL";
+    public final static String ERROR_DESKRIPSI_MENU_HEADER_IS_BLANK = "FIELD DESKRIPSI MENU HEADER TIDAK BOLEH DIISI SPASI SAJA";
+    public final static String ERROR_DESKRIPSI_MENU_HEADER_IS_EMPTY = "FIELD DESKRIPSI MENU HEADER TIDAK BOLEH KOSONG";
+    public final static String ERROR_DESKRIPSI_MENU_HEADER_LENGTH = "MINIMAL 15 MAKSIMAL 65 KARAKTER ";
+    public final static String REGEX_DESKRIPSI_MENU_HEADER_LENGTH = "^[a-zA-Z\\s]{15,65}$";
+
+
+}
